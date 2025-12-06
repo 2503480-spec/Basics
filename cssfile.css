@@ -1,0 +1,38 @@
+
+body{background-color: hsl(135,41%,78%)}
+h1{color :black; text-align:center;}
+h2{color:hsl(122,53%,22%); text-align:center; border: 6px DarkSeaGreen;}
+img { display: block; margin-left: auto; margin-right: auto; padding-bottom:30px;}
+h3{color: #345235; text-align: center; font-family:arial; font-size:100%; margin:10px; padding:10px;}
+img2 { display: block; margin-left: 25%; margin-right: 75%; padding-bottom:30px;}
+div{background-color: hsl(137, 41%, 74%); border: 6px solid DarkSeaGreen;}
+.my-class{  text-align:center; display: grid;
+grid-template-columns: 33% 33% 33%; align-items:start; gap:10px;}
+.button{ padding: 12px 28px;
+    background-color: hsl(147, 25.8%, 58.6%);
+    color: white;
+    border: solid DarkSeaGreen;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.button:hover {
+    background-color: hsl(147, 25.8%, 48%); 
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+    transform: translateY(-2px);
+}
+.button2{ padding: 8px 15px;
+    background-color: hsl(147, 25.8%, 58.6%);
+    color: black;
+    border: solid DarkSeaGreen;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}

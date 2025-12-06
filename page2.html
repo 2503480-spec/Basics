@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="cssfile.css">
+<title>Page Title</title>
+<style>
+body{background-color: hsl(135,41%,78%)}
+#myHeader {
+  background-color: hsl(147 25.8% 58.6%);;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+ img { display: block; margin: 20px auto; max-width: 90%; }
+#bioMarket{display: none;}
+</style>
+</head>
+<body>
+
+<h1 id="myHeader"; style="color:hsl(122,53%,22%);">Uses of Bioinformatics</h1>
+<p>Sequence and analyze genomes<br>
+Identify genes and their functions<br>
+Predict protein structures and functions<br>
+Analyze gene expression data<br>
+Design new drugs and therapies<br>
+</p>
+<h1 id="Bookmark;" style="color:hsl(122,53%,22%);"> Bioinformatics around the World</h1>
+<div>
+<p style="font-size:15px" >Bioinformatics is a global field driven by major institutions like the National Center for Biotechnology Information (NCBI) in the US and the European Bioinformatics Institute (EMBL-EBI) in Europe, with a strong presence in countries with leading universities like the US, UK, and Canada. Its global growth is fueled by advancements in AI and personalized medicine, creating diverse career opportunities in academia, healthcare, and various industries worldwide.</p>
+</div>
+<a href="#Bookmark">Jump to a global ride!</a>
+<button class="button2" onclick="myFunction()">Click Me!</button>
+<img id="bioMarket" src="biomarket.webp" alt="Future of Bioinformatics in global market">
+
+<p id="demo">This is a practice webpage for Bioinformatics.</p>
+
+<h2>Bioinformatics: From DNA to Structure</h2>
+<p> Here's a small demo for you to see how bioinformatics can be helpful using the example of GFP(Green Flourescence Protein) pipeline which shows how a complex sequence can be coverted to relatively beautiful images showing the 3D structures.<p>
+
+<img id="bioImg" src="gfpdata.gif" alt="DNA Stage">
+
+<div style="text-align: center;">
+  <button class="button" onclick="showData()">Show Data Visualization</button>
+  <button class="button" onclick="showStructure()">Show 3D Structure</button>
+  <button class="button" onclick="showDNA()">Back to DNA</button>
+</div>
+
+<script>
+function myFunction(){
+document.getElementById('bioMarket').style.display='block';
+}
+
+  function showDNA() {
+    document.getElementById('bioImg').src = 'gfpdata.gif';
+  }
+  function showData() {
+    document.getElementById('bioImg').src = 'gfpgraph.png';
+  }
+  function showStructure() {
+    document.getElementById('bioImg').src = 'gfpstructure.webp';
+  }
+</script>
+<a href="htmlcsscode.html">
+<button class="button">Back to home Page </button></a>
+</body>
+</html>
